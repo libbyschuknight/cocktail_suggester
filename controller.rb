@@ -29,7 +29,7 @@ class CocktailList
 
   # call the analyze data method
   def analyze_ingredients
-    @model.check_hash_for_possible_recipes(take_user_input)
+    @model.check_hash_for_possible_recipes(@ingredient)
   end
 
   # call the return populated list method
@@ -47,9 +47,5 @@ class CocktailList
     @user_view.end_of_program_message
   end
 end
-
-# cocktail_list = {martini => ["vermouth", "gin"],
-#                  old_fashioned =>["whisky", "bitters", "water", "sugar"]
-#                 }
 
 

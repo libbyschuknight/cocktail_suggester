@@ -33,8 +33,6 @@ attr_reader :possible_cocktails
       end
     end
   end
-
-
 end
 
 
