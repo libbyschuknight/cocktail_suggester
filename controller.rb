@@ -10,7 +10,6 @@ class CocktailList
 
   def run_program
     welcome
-    take_user_input
     analyze_ingredients
     return_possible_cocktails
     print_cocktails
@@ -29,7 +28,7 @@ class CocktailList
 
   # call the analyze data method
   def analyze_ingredients
-    @model.check_hash_for_possible_recipes(@ingredient)
+    @model.check_hash_for_possible_recipes(take_user_input)
   end
 
   # call the return populated list method
