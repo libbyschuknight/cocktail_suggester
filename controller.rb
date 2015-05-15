@@ -14,6 +14,7 @@ class CocktailList
     analyze_ingredients
     return_possible_cocktails
     print_cocktails
+    end_program
   end
 
   # call the view.welcome method
@@ -38,7 +39,7 @@ class CocktailList
 
   # call the show user our list method
   def print_cocktails
-    @user_view.cocktail_names_for_user
+    @user_view.cocktail_names_for_user(return_possible_cocktails)
   end
 
   #end the program

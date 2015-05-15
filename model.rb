@@ -2,9 +2,10 @@ require "io/console"
 require_relative "controller.rb"
 
 class Model
-
+attr_reader :possible_cocktails
   def initialize
-    @recipe_hashs = populate_recipe_hash
+    @recipe_array_of_hashes = populate_recipe_hash
+    @possible_cocktails = []
   end
 
   def populate_recipe_hash
@@ -26,7 +27,11 @@ class Model
   end
 
   def check_hash_for_possible_recipes(ingredient)
-    @recipe_hashs
+    @recipe_array_of_hashes.each do |hash|
+      if hash.values[0].include?(ingredient)
+        @possible_cocktails.push(hash.key(hash.values[0]))
+      end
+    end
   end
 
 
@@ -36,4 +41,4 @@ end
 # model = Model.new
 
 # p model.populate_recipe_hash.is_a?(Array) == true
-# puts model.populate_recipe_hash
+# p model.check_hash_for_possible_recipes("rum")

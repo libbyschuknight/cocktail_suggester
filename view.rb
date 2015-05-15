@@ -16,6 +16,7 @@ class View
   end
 
   def cocktail_names_for_user(array)
+    puts "You can make these cocktails: "
     puts array
   end
 
