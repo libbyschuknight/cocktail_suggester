@@ -10,9 +10,11 @@ class CocktailList
 
   def run_program
     welcome
-    analyze_ingredients
-    return_possible_cocktails
-    print_cocktails
+    until @user_view.ingredient == "quit"
+      analyze_ingredients
+      return_possible_cocktails
+      print_cocktails
+    end
     end_program
   end
 
