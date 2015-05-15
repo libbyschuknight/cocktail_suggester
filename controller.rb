@@ -41,6 +41,7 @@ class CocktailList
   # call the show user our list method
   def print_cocktails
     @user_view.cocktail_names_for_user(return_possible_cocktails)
+    @user_view.input_again_or_quit_message
   end
 
   #end the program
