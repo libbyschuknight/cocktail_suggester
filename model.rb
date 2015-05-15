@@ -42,7 +42,9 @@ attr_reader :possible_cocktails
 
   end
 
-  def method_name
+  def find_cocktail_receipe
+    list = receipe_list
+
 
   end
 
