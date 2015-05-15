@@ -3,7 +3,8 @@ require_relative 'controller.rb'
 class Router
 
   def initialize
-    @controller = Controller.new
+    @controller = CocktailList.new
+    @controller.run_program
   end
 
 

@@ -1,4 +1,7 @@
+
+
 class Model
+
   def initialize
     @recipe_hash = populate_recipe_hash
     @source_file = 'cocktail_list.txt'

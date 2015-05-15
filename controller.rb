@@ -4,7 +4,7 @@ require_relative 'view.rb'
 class CocktailList
 
   def initialize
-    @model = Model.new
+    # @model = Model.new
     @user_view = View.new
   end
 
