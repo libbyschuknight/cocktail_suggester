@@ -4,6 +4,7 @@ require_relative "controller.rb"
 
 class View
   attr_reader :ingredient
+
   def welcome_message_instructions
     puts "****** Welcome to the COCKTAIL SUGGESTER!! ******"
     puts "Type in the name of the liquid ingredient that you would like to make a cocktail from."
@@ -18,6 +19,7 @@ class View
   def cocktail_names_for_user(array)
     puts "You can make these cocktails: "
     puts array
+    puts "Feel free to search for a new liquid ingredient, otherwise type 'quit' to exit the program."
   end
 
   def end_of_program_message
