@@ -35,7 +35,8 @@ attr_reader :possible_cocktails
   end
 ######################## NEW ########################
   def add_cocktail(cocktail_name, cocktail_ingredients)
-    @recipe_array_of_hashes << {:cocktail_name => cocktail_ingredients}
+   @recipe_array_of_hashes << {:cocktail_name => cocktail_ingredients}
+
   end
 end
 
