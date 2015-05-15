@@ -4,7 +4,7 @@ require_relative 'view.rb'
 class CocktailList
 
   def initialize
-    # @model = Model.new
+    @model = Model.new
     @user_view = View.new
   end
 
@@ -28,7 +28,7 @@ class CocktailList
 
   # call the analyze data method
   def analyze_ingredients
-    @model.analyze
+    @model.check_hash_for_possible_recipes(take_user_input)
   end
 
   # call the return populated list method

@@ -1,5 +1,5 @@
 ## may need to change, check what other files are called
-require_relative "model.rb"
+# require_relative "model.rb"
 require_relative "controller.rb"
 
 class View
