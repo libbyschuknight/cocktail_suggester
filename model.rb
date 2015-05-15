@@ -33,10 +33,24 @@ attr_reader :possible_cocktails
       end
     end
   end
+
+  def receipe_list
+    text = IO.read("cocktail_receipe_list.txt")
+    all_receipes = text.split("\n\n")
+    all_receipes.map do |receipe| receipe.split
+    end
+
+  end
+
+  def method_name
+
+  end
+
 end
 
 
 # model = Model.new
+# p model.receipe_list
 
 # p model.populate_recipe_hash.is_a?(Array) == true
 # p model.check_hash_for_possible_recipes("rum")

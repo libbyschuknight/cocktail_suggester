@@ -1,10 +1,10 @@
 Cosmopolitan
 vodka,cointreau,lime juice,cranberry juice
 
-Dirty Martini
+Dirty-Martini
 vodka,dry vermouth,brine from olive jar,stuffed green olives
 
-Mai Tai
+Mai-Tai
 spiced rum,coconut-flavored rum,grenadine syrup,pineapple juice,orange juice,ice cubes
 
 Mojito
@@ -13,5 +13,5 @@ mint leaves,white sugar,rum,ice cubes,carbonated water
 Margarita
 limeade,pineapple juice,orange juice,tequila,orange liqueur
 
-Old Fashioned
+Old-Fashioned
 simple syrup,bitters,ice cubes,bourbon whiskey
