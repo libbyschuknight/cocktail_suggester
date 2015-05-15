@@ -14,6 +14,7 @@ class CocktailList
     analyze_ingredients
     return_possible_cocktails
     print_cocktails
+    add_cocktail_user_input
     end_program
   end
 
@@ -45,6 +46,10 @@ class CocktailList
   #end the program
   def end_program
     @user_view.end_of_program_message
+  end
+######################## NEW ########################
+  def add_cocktail_user_input
+    @user_view.get_user_new_cocktail(@cocktail_name, @cocktail_ingredients)
   end
 end
 

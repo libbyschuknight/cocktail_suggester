@@ -24,4 +24,15 @@ class View
     puts "Thanks for using the COCKTAIL SUGGESTER"
     puts "We hope you have found it useful"
   end
+######################## NEW ########################
+  def get_user_new_cocktail(cocktail_name, cocktail_ingredients)
+    puts "Please enter cocktail name:"
+    @cocktail_name = gets.chomp.capitalize
+    puts "Please enter ingredients: (Please seperated by a ',')"
+    @cocktail_ingredients = gets.chomp.downcase
+  end
+
+  def added_cocktail_message
+    puts "Thank you for adding a new cocktail recipe!"
+  end
 end
