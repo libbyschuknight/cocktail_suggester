@@ -15,3 +15,30 @@ limeade,pineapple juice,orange juice,tequila,orange liqueur
 
 Old Fashioned
 simple syrup,bitters,ice cubes,bourbon whiskey
+
+Bijou
+gin, bitters, chartreuse, sweet vermouth
+
+Martini
+gin, vermouth, olive garnish
+
+Mint Julep
+bourbon, sugar, mint, bitters, club soda, lime cordial, ice
+
+Long Island Iced Tea
+vodka, gin, white rum, tequila, triple sec, sweet and sour mix, coke, ice
+
+Mimosa
+orange juice, champagne or sparkling wine
+
+Martinez
+gin, sweet vermouth, maraschino, bitters
+
+Manhattan
+rye whiskey, sweet vermouth, bitters
+
+Sidecar
+cognac armagnac or brandy, cointreau, lemon juice
+
+Negroni
+gin, campari, sweet vermouth

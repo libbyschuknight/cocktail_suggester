@@ -7,7 +7,6 @@ class Router
     @controller.run_program
   end
 
-
 end
 
 cocktail_list = Router.new
