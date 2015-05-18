@@ -19,10 +19,16 @@ class View
 
   def cocktail_names_for_user(array)
     puts "You can make the following cocktails: "
-    puts "****"
-    @populated_potential_cocktails = array
-    print_array_ascii
-    puts "****"
+    if array.empty?
+      puts "****"
+      puts "Sorry, no cocktails match your entry.\n" * 3
+      puts "****"
+    else
+      puts "****"
+      @populated_potential_cocktails = array.uniq
+      print_array_ascii
+      puts "****"
+    end
   end
 
   def input_again_or_quit_message
